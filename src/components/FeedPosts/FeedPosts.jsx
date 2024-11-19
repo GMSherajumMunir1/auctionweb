@@ -36,10 +36,11 @@ const FeedPosts = () => {
         posts.map((post) => <FeedPost key={post.id} post={post} />)}
       {!isLoading && posts.length === 0 && (
         <>
-          <Text fontSize={"md"} color={"red.400"}>
-            Dayuum. Looks like you don&apos;t have any friends.
+          <Text fontSize={"md"} color={"black.000"}>
+            Follow "ChannelZ" to get the latest news. Follow others to see their
+            posts on your feed. Swipe to left to see suggested profile.
           </Text>
-          <Text color={"red.400"}>Stop coding and go make some!!</Text>
+          <Text color={"black.000"}>Post something yourselves please!!</Text>
         </>
       )}
     </Container>

@@ -33,7 +33,7 @@ const SuggestedUsers = () => {
         <SuggestedUser user={user} key={user.id} />
       ))}
 
-      <Box fontSize={12} color={"gray.500"} mt={5} alignSelf={"start"}>
+      {/* <Box fontSize={12} color={"gray.500"} mt={5} alignSelf={"start"}>
         © 2023 Built By{" "}
         <Link
           href="https://www.youtube.com/@asaprogrammer_"
@@ -43,7 +43,7 @@ const SuggestedUsers = () => {
         >
           As a Programmer
         </Link>
-      </Box>
+      </Box> */}
     </VStack>
   );
 };

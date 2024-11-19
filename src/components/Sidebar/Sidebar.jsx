@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Link, Tooltip } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
-import { InstagramLogo, InstagramMobileLogo } from "../../assets/constants";
+// import { InstagramLogo, InstagramMobileLogo } from "../../assets/constants";
 
 import { BiLogOut } from "react-icons/bi";
 import useLogout from "../../hooks/useLogout";
@@ -27,7 +27,7 @@ const Sidebar = () => {
           display={{ base: "none", md: "block" }}
           cursor="pointer"
         >
-          <InstagramLogo />
+          {/* <InstagramLogo /> */}
         </Link>
         <Link
           to={"/"}
@@ -41,7 +41,7 @@ const Sidebar = () => {
           w={10}
           cursor="pointer"
         >
-          <InstagramMobileLogo />
+          {/* <InstagramMobileLogo /> */}
         </Link>
         <Flex direction={"column"} gap={5} cursor={"pointer"}>
           <SidebarItems />

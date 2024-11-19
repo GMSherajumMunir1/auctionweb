@@ -10,14 +10,14 @@ import { BrowserRouter } from "react-router-dom";
 const styles = {
   global: (props) => ({
     body: {
-      bg: mode("gray.100", "#000")(props),
-      color: mode("gray.800", "whiteAlpha.900")(props),
+      bg: mode("orange.900", "#dc4d01")(props),
+      color: mode("black.800", "black.800")(props),
     },
   }),
 };
 
 const config = {
-  initialColorMode: "dark",
+  initialColorMode: "white",
   useSystemColorMode: false,
 };
 
